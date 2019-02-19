@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524000692498.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3399835456",
+    "id" : "32EB92E1",
+    "lastKnownWriteTime" : 1524001372,
+    "last_content_update" : 1524001372252,
+    "path" : "~/Desktop/SG R Projects/Scissortail Analysis.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "223,0",
+        "scrollLine" : "198",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

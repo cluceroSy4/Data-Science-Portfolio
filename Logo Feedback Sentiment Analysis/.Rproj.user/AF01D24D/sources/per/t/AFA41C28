@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1524078568595.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1607259727",
+    "id" : "AFA41C28",
+    "lastKnownWriteTime" : 1524091547,
+    "last_content_update" : 1524091547687,
+    "path" : "~/Desktop/Syracuse/IST565.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "56,16",
+        "scrollLine" : "47",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

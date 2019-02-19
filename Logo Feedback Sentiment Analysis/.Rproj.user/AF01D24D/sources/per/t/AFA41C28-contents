@@ -1,0 +1,65 @@
+titanic <- read.csv("/Users/coreylucero/Desktop/Syracuse/IST565/Week 2/train.csv", na.string=c(""))
+View(titanic)
+
+titanic$PassengerId <- factor(titanic$PassengerId)
+str(titanic$PassengerId)
+
+#How many missing values for each variable?
+
+MissingValues <- function(x)
+{
+  y <- length(which(is.na(titanic[x])))
+  print(y)
+}
+
+MissingValues(1)
+MissingValues(2)
+MissingValues(3)
+MissingValues(4)
+MissingValues(5)
+MissingValues(6)
+MissingValues(7)
+MissingValues(8)
+MissingValues(9)
+MissingValues(10)
+MissingValues(11)
+MissingValues(12)
+
+titanic$Age[is.na(titanic$Age)] <- mean(titanic$Age, na.rm = TRUE)
+length(which(is.na(titanic$Age))) #Replace missing ages with the mean
+
+#Create function to remove missing values for Cabin
+removeCabin <- function(data, desiredcols){
+  completevec <- complete.cases(data[, desiredcols])
+  return(data[completevec,])
+}
+
+#Run function to return only rows with Cabin
+titanicCabin <- removeCabin(titanic, "Cabin")
+
+boxplot(titanic$Fare)
+hist(titanic$Fare)
+table(titanic$Embarked, titanic$Survived)
+
+aggregate(titanic$Fare, by=list(titanic$Sex),FUN=mean)
+
+discretization <- cut(titanic$Age, breaks = c(0, 10, 20, 30, 40, 50, 60, Inf), labels=c("child", "teens", "twenties", "thirties", "fourties", "fifties", "old"))
+log <- log(titanic$Age)
+plot(titanic$Age, log(titanic$Age))
+
+zscore <- scale(titanic$Age, center=TRUE, scale=TRUE)
+plot(titanic$Age, zscore)
+head(zscore)
+
+minmax <-  (titanic$Age - min(titanic$Age, ra.rm=TRUE))/max(titanic$Age, na.rm=TRUE) - min(titanic$Age, na.rm=TRUE)
+plot(titanic$Age,minmax)
+head(minmax)
+summary(discretization)
+
+sample <- titanic[sample(1:nrow(titanic), 100, replace=FALSE),]
+
+table(titanic$Survived) #Actual data of survivors
+table(sample$Survived) #Sample of survivors
+
+ss=titanic[seq(1, nrow(titanic), 10),]
+nrow(ss)
