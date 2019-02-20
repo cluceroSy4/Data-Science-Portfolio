@@ -5,6 +5,16 @@ Click the links on each project to be taken directly to the analysis and code.
 
 ## Projects:
 
+
+### [NCAA Coach Salary Analysis](https://github.com/cluceroSy4/Data-Science-Portfolio/blob/master/NCAA%20Coach%20Salary%20Analysis/NCAA%20Salary%20Markdown%20Files/IST718Lab1PythonNotebook.md)
+* Analyzed NCAA coach and university characteristics such as program revenue, stadium capacity, conference and win-loss record to develop a model to recommend how much a football coach should be paid
+* Used advanced data wrangling techniques such as web scraping and fuzzy string matching to create a dataframe ready for data modeling
+* Visualized data to show relationships between football teams, coaches and conferences
+* Performed OLS regression on cleaned data to create a model used to predict coach salary
+* Uses: Python (Pandas / FuzzyWuzzy / numpy / seaborn / matplotlib), Data Acquisition, Data Wrangling, Linear Modeling, Data Visualization
+
+---
+
 ### [Hotel NPS Analysis](https://github.com/cluceroSy4/Data-Science-Portfolio/blob/master/Hotel%20NPS%20Analysis/IST687%20Project%20Code.R) 
 * Extensive analysis of hotel data using R to build a business case for using Net Promoter Score
 * Used linear regression to determine the impact of NPS on hotel revenue
@@ -76,15 +86,6 @@ Click the links on each project to be taken directly to the analysis and code.
 * Used NLP techniques to analyze the content of millions of tweets while processing the unique formatting of tweets (e.g. hashtags) 
 * Compared spikes in tweet activity to major historical news events to understand the temporal patterns 
 * Uses: Python (Pandas / nltk / matplotlib / collections), Natural Language Processing, Word Clouds, Social Media Analysis, Data Visualization
-
----
-
-### [NCAA Coach Salary Analysis](https://github.com/cluceroSy4/Data-Science-Portfolio/blob/master/NCAA%20Coach%20Salary%20Analysis/NCAA%20Salary%20Markdown%20Files/IST718Lab1PythonNotebook.md)
-* Analyzed NCAA coach and university characteristics such as program revenue, stadium capacity, conference and win-loss record to develop a model to recommend how much a football coach should be paid
-* Used advanced data wrangling techniques such as web scraping and fuzzy string matching to create a dataframe ready for data modeling
-* Visualized data to show relationships between football teams, coaches and conferences
-* Performed OLS regression on cleaned data to create a model used to predict coach salary
-* Uses: Python (Pandas / FuzzyWuzzy / numpy / seaborn / matplotlib), Data Acquisition, Data Wrangling, Linear Modeling, Data Visualization
 
 ---
 
