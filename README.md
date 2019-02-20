@@ -5,7 +5,7 @@ Click the links on each project to be taken directly to the analysis and code.
 
 ## Projects:
 
-### [Hotel NPS Analysis](https://github.com/cluceroSy4/Data-Science-Portfolio/blob/master/Hotel%20NPS%20Analysis/IST687%20Project%20Code.R) (Under Construction)
+### [Hotel NPS Analysis](https://github.com/cluceroSy4/Data-Science-Portfolio/blob/master/Hotel%20NPS%20Analysis/IST687%20Project%20Code.R) 
 * Extensive analysis of hotel data using R to build a business case for using Net Promoter Score
 * Used linear regression to determine the impact of NPS on hotel revenue
 * Used SVM model to predict above or below average NPS scores from guest survey responses
@@ -14,7 +14,7 @@ Click the links on each project to be taken directly to the analysis and code.
 
 ---
 
-### [ARIMA Time Series Forecasting](https://github.com/cluceroSy4/Data-Science-Portfolio/blob/master/ARIMA%20Time%20Series%20Forecasting/Real%20Estate%20Investment%20Markdown%20Files/Real%20Estate%20Investment%20Analysis.md) (Under Construction)
+### [ARIMA Time Series Forecasting](https://github.com/cluceroSy4/Data-Science-Portfolio/blob/master/ARIMA%20Time%20Series%20Forecasting/Real%20Estate%20Investment%20Markdown%20Files/Real%20Estate%20Investment%20Analysis.md) 
 * Predicting top real estate investment opportunities in Python using ARIMA forecasting
 * Sources historical real estate data from Zillow, population data from the US Census and real estate LTV values from the Federal Housing Finance Agency
 * Used multiple rounds of differencing to achieve stationarity as well as perform ARIMA parameter tuning to find the model with the best root mean squared error (RMSE)
